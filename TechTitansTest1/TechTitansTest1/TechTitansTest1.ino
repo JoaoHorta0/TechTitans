@@ -343,3 +343,45 @@ void HMItoTWINCAT()
     }
   
 }
+
+void ModuleToModuleControl(){
+  int decimalNumber = 254;  // Change this to the decimal number you want to convert
+int binaryArray[8];
+
+void setup() {
+  Serial.begin(9600);
+  
+  // Convert decimal to binary and store each bit in the array
+  for (int i = 7; i >= 0; i--) {
+    binaryArray[i] = decimalNumber % 2;
+    decimalNumber /= 2;
+  }
+
+  // Print the binary representation
+  //Serial.print("Binary representation: ");
+  for (int i = 0; i < 8; i++) {
+    Serial.print("Binary Position");
+    Serial.print(i);
+    Serial.print(": ");    
+    Serial.println(binaryArray[i]);
+  }
+  
+  for(int i = 0; i < 8; i++){
+  Serial.print("Qube ");
+  Serial.print(i+1);
+  Serial.print(":");
+  if(binaryArray[i] == 0){
+    Serial.println("Not Connected");
+  }
+  else if(binaryArray[i] == 1){
+    Serial.println("Connected");
+  }
+ }
+}
+
+void loop() {
+  // Your main code can go here
+}
+  
+  
+  }
