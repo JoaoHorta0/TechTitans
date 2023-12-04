@@ -1,0 +1,641 @@
+
+Easy Configurator, configuration engine  V_3_3 
+
+log created on Mon Nov 27 12:38:09 2023
+
+Analyzing the project file
+
+Easy Configurator project TechTitansTest1.prj
+
+OUTPUTS_TAG
+Line 4 --- Byte0                   uint8_t
+Line 5 --- Byte1                   uint8_t
+Line 6 --- Byte2                   uint8_t
+Line 7 --- Byte3                   uint8_t
+Line 8 --- Byte4                   uint8_t
+Line 9 --- Byte5                   uint8_t
+Line 10 --- Byte6                   uint8_t
+Line 11 --- Byte7                   uint8_t
+Line 12 --- Byte8                   uint8_t
+Line 13 --- Byte9                   uint8_t
+Line 14 --- Byte10                  uint8_t
+Line 15 --- Byte11                  uint8_t
+Line 16 --- Byte12                  uint8_t
+Line 17 --- Byte13                  uint8_t
+Line 18 --- Byte14                  uint8_t
+Line 19 --- Byte15                  uint8_t
+Line 20 --- Byte16                  uint8_t
+Line 21 --- Byte17                  uint8_t
+Line 22 --- Byte18                  uint8_t
+Line 23 --- Byte19                  uint8_t
+Line 24 --- Byte20                  uint8_t
+Line 25 --- Byte21                  uint8_t
+Line 26 --- Byte22                  uint8_t
+Line 27 --- Byte23                  uint8_t
+Line 28 --- Byte24                  uint8_t
+Line 29 --- Byte25                  uint8_t
+Line 30 --- Byte26                  uint8_t
+Line 31 --- Byte27                  uint8_t
+Line 32 --- Byte28                  uint8_t
+Line 33 --- Byte29                  uint8_t
+Line 34 --- Byte30                  uint8_t
+Line 35 --- Byte31                  uint8_t
+INPUTS_TAG
+Line 37 --- Byte0                   uint8_t
+Line 38 --- Byte1                   uint8_t
+Line 39 --- Byte2                   uint8_t
+Line 40 --- Byte3                   uint8_t
+Line 41 --- Byte4                   uint8_t
+Line 42 --- Byte5                   uint8_t
+Line 43 --- Byte6                   uint8_t
+Line 44 --- Byte7                   uint8_t
+Line 45 --- Byte8                   uint8_t
+Line 46 --- Byte9                   uint8_t
+Line 47 --- Byte10                  uint8_t
+Line 48 --- Byte11                  uint8_t
+Line 49 --- Byte12                  uint8_t
+Line 50 --- Byte13                  uint8_t
+Line 51 --- Byte14                  uint8_t
+Line 52 --- Byte15                  uint8_t
+Line 53 --- Byte16                  uint8_t
+Line 54 --- Byte17                  uint8_t
+Line 55 --- Byte18                  uint8_t
+Line 56 --- Byte19                  uint8_t
+Line 57 --- Byte20                  uint8_t
+Line 58 --- Byte21                  uint8_t
+Line 59 --- Byte22                  uint8_t
+Line 60 --- Byte23                  uint8_t
+Line 61 --- Byte24                  uint8_t
+Line 62 --- Byte25                  uint8_t
+Line 63 --- Byte26                  uint8_t
+Line 64 --- Byte27                  uint8_t
+Line 65 --- Byte28                  uint8_t
+Line 66 --- Byte29                  uint8_t
+Line 67 --- Byte30                  uint8_t
+Line 68 --- Byte31                  uint8_t
+INFO_TAG
+0x0000079A
+AB&amp;T
+0x1234ABCD
+0x00000001
+TechTitansTest1
+TechTitansTest1
+END_TAG
+
+The TechTitansTest1.prj configuration file is correct
+
+ByteNumOut 32
+ByteNumIn  32
+PdoNumOut  32
+PdoNumIn   32
+
+Creating the TechTitansTest1.xml file
+
+PROJECT_TAG   TechTitansTest1.prj
+VENDOID_TAG   0000079A
+VEN_NAM_TAG   AB&amp;T
+PRO_COD_TAG   1234ABCD
+REVISIO_TAG   00000001
+DEV_NAM_TAG   TechTitansTest1
+DEV_NAM_TAG   TechTitansTest1
+
+FIRST_TAG
+
+Output entries
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte0</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte1</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte2</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte3</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte4</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte5</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte6</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte7</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte8</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte9</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte10</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte11</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte12</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte13</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte14</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte15</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte16</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte17</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte18</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte19</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>21</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte20</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>22</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte21</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>23</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte22</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>24</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte23</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>25</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte24</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>26</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte25</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>27</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte26</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>28</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte27</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>29</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte28</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>30</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte29</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>31</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte30</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x5</Index>
+            <SubIndex>32</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte31</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+Input entries
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte0</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte1</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte2</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte3</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte4</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte5</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte6</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte7</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte8</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte9</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte10</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte11</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte12</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte13</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte14</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte15</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte16</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte17</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte18</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte19</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>21</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte20</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>22</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte21</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>23</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte22</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>24</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte23</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>25</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte24</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>26</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte25</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>27</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte26</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>28</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte27</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>29</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte28</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>30</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte29</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>31</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte30</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6</Index>
+            <SubIndex>32</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Byte31</Name>
+            <DataType>USINT</DataType>
+          </Entry>
+
+LAST_TAG
+
+The TechTitansTest1.xml file has been created
+
+Creating the TechTitansTest1.h file
+
+#define CUST_BYTE_NUM_OUT	32
+#define CUST_BYTE_NUM_IN	32
+#define TOT_BYTE_NUM_ROUND_OUT	32
+#define TOT_BYTE_NUM_ROUND_IN	32
+
+
+Output entries
+		uint8_t     Byte0;
+		uint8_t     Byte1;
+		uint8_t     Byte2;
+		uint8_t     Byte3;
+		uint8_t     Byte4;
+		uint8_t     Byte5;
+		uint8_t     Byte6;
+		uint8_t     Byte7;
+		uint8_t     Byte8;
+		uint8_t     Byte9;
+		uint8_t     Byte10;
+		uint8_t     Byte11;
+		uint8_t     Byte12;
+		uint8_t     Byte13;
+		uint8_t     Byte14;
+		uint8_t     Byte15;
+		uint8_t     Byte16;
+		uint8_t     Byte17;
+		uint8_t     Byte18;
+		uint8_t     Byte19;
+		uint8_t     Byte20;
+		uint8_t     Byte21;
+		uint8_t     Byte22;
+		uint8_t     Byte23;
+		uint8_t     Byte24;
+		uint8_t     Byte25;
+		uint8_t     Byte26;
+		uint8_t     Byte27;
+		uint8_t     Byte28;
+		uint8_t     Byte29;
+		uint8_t     Byte30;
+		uint8_t     Byte31;
+
+Input entries
+		uint8_t     Byte0;
+		uint8_t     Byte1;
+		uint8_t     Byte2;
+		uint8_t     Byte3;
+		uint8_t     Byte4;
+		uint8_t     Byte5;
+		uint8_t     Byte6;
+		uint8_t     Byte7;
+		uint8_t     Byte8;
+		uint8_t     Byte9;
+		uint8_t     Byte10;
+		uint8_t     Byte11;
+		uint8_t     Byte12;
+		uint8_t     Byte13;
+		uint8_t     Byte14;
+		uint8_t     Byte15;
+		uint8_t     Byte16;
+		uint8_t     Byte17;
+		uint8_t     Byte18;
+		uint8_t     Byte19;
+		uint8_t     Byte20;
+		uint8_t     Byte21;
+		uint8_t     Byte22;
+		uint8_t     Byte23;
+		uint8_t     Byte24;
+		uint8_t     Byte25;
+		uint8_t     Byte26;
+		uint8_t     Byte27;
+		uint8_t     Byte28;
+		uint8_t     Byte29;
+		uint8_t     Byte30;
+		uint8_t     Byte31;
+
+The TechTitansTest1.h file has been created
+
+Creating the TechTitansTest1.bin file
+
+
+The TechTitansTest1.bin file has been created
