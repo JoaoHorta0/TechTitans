@@ -24,6 +24,8 @@ EasyCAT EASYCAT;                    // EasyCAT istantiation
                                     // pin 8 will be used as SPI chip select
                                     // The chip select chosen by the firmware must match the setting on the board  
 
+#define QUBE_NUMBER 7 //up to 7                                    
+#define MODULE_NUMBER 15 //up to 15
 
 //---- pins declaration ------------------------------------------------------------------------------
 
@@ -59,7 +61,6 @@ UWORD TestOut;
 
 char IncomingData = 0;
 
-
 unsigned long Millis = 0;
 unsigned long PreviousMillis = 0;
 unsigned long PreviousSaw = 0;
@@ -67,6 +68,13 @@ unsigned long PreviousCycle = 0;
 
 static unsigned long lastMillis = 0;
 const unsigned long interval = 100;
+
+int QubesConnectedBIN[8];
+int QubesConnectedDEC = 0;//170;
+
+int ModulesConnectedBIN[16];
+int ModulesConnectedDEC_1stByte = 0;
+int ModulesConnectedDEC_2ndByte = 0;
 
 
 //---- setup ---------------------------------------------------------------------------------------
@@ -143,7 +151,8 @@ void loop()                                             // In the main loop we m
 
   EASYCAT.MainTask();                                   // execute the EasyCAT task
 
-
+  QubeToQubeConnection();
+  ModuleToModuleConnection();
   HMItoTWINCAT();
   TWINCATtoHMI();
   Application();                                        // user applications
@@ -258,8 +267,8 @@ void Application ()
     
     EASYCAT.BufferIn.Byte[6] = Test.Byte[0];  //Arduino -> Twinny
       
-    EASYCAT.BufferIn.Byte[30] = ContaUp.Byte[0] << 2;   // medium speed rising slope
-    EASYCAT.BufferIn.Byte[31] = ContaDown.Byte[0] << 2; // medium speed falling slope    
+    EASYCAT.BufferIn.Byte[7] = ContaUp.Byte[0] << 2;   // medium speed rising slope
+    EASYCAT.BufferIn.Byte[8] = ContaDown.Byte[0] << 2; // medium speed falling slope    
 
     TestOut.Byte[0] =   EASYCAT.BufferOut.Byte[0];  // Twinny -> Arduino
 
@@ -298,7 +307,20 @@ void TWINCATtoHMI()
     Serial.print(",");
     Serial.print(Analog0.Byte[0]);
     Serial.print(",");
-    Serial.println(Analog1.Word);
+    Serial.print(Analog1.Word);
+    
+    Serial.print("/");
+    for (int i = 0; i < 8; i++) {
+    Serial.print(QubesConnectedBIN[i]);
+    if(i != 7){Serial.print(",");}
+    }
+    Serial.print("/");
+
+    for (int i = 0; i < 16; i++) {
+    Serial.print(ModulesConnectedBIN[i]);
+    if(i != 15){Serial.print(",");}
+    }
+    Serial.println("/");
 
     lastMillis = Millis;
     }
@@ -341,47 +363,63 @@ void HMItoTWINCAT()
        digitalWrite (BitOut5, LOW);  
       }
     }
-  
 }
 
-void ModuleToModuleControl(){
-  int decimalNumber = 254;  // Change this to the decimal number you want to convert
-int binaryArray[8];
+void QubeToQubeConnection(){
 
-void setup() {
-  Serial.begin(9600);
-  
+QubesConnectedDEC = EASYCAT.BufferOut.Byte[31];
+//Serial.print(ModulesConnectedDEC);
+  //Serial.print("\n");
   // Convert decimal to binary and store each bit in the array
   for (int i = 7; i >= 0; i--) {
-    binaryArray[i] = decimalNumber % 2;
-    decimalNumber /= 2;
+    QubesConnectedBIN[i] = QubesConnectedDEC % 2;
+    QubesConnectedDEC /= 2;
   }
-
-  // Print the binary representation
-  //Serial.print("Binary representation: ");
+  if(QubesConnectedBIN[7-QUBE_NUMBER] == 0){
+    QubesConnectedBIN[7-QUBE_NUMBER] = 1;}
+  
   for (int i = 0; i < 8; i++) {
-    Serial.print("Binary Position");
-    Serial.print(i);
-    Serial.print(": ");    
-    Serial.println(binaryArray[i]);
+    QubesConnectedDEC = QubesConnectedDEC * 2 + QubesConnectedBIN[i];
   }
-  
-  for(int i = 0; i < 8; i++){
-  Serial.print("Qube ");
-  Serial.print(i+1);
-  Serial.print(":");
-  if(binaryArray[i] == 0){
-    Serial.println("Not Connected");
-  }
-  else if(binaryArray[i] == 1){
-    Serial.println("Connected");
-  }
- }
+
+ // Serial.print("\n");
+  //Serial.print(ModulesConnectedDEC);
+  EASYCAT.BufferIn.Byte[31] = QubesConnectedDEC;
+
 }
 
-void loop() {
-  // Your main code can go here
+
+void ModuleToModuleConnection(){
+
+ModulesConnectedDEC_1stByte = EASYCAT.BufferOut.Byte[29];
+ModulesConnectedDEC_2ndByte = EASYCAT.BufferOut.Byte[30];
+
+/*Serial.print(ModulesConnectedDEC_1stByte);
+Serial.println(ModulesConnectedDEC_2ndByte);*/
+
+  // Convert decimal to binary and store each bit in the array
+  for (int i = 7; i >= 0; i--) {
+    ModulesConnectedBIN[i] = ModulesConnectedDEC_1stByte % 2;
+    ModulesConnectedDEC_1stByte /= 2;
+  }
+  for (int i = 15; i >= 8; i--) {
+    ModulesConnectedBIN[i] = ModulesConnectedDEC_2ndByte % 2;
+    ModulesConnectedDEC_2ndByte /= 2;
+  }
+  
+  if(ModulesConnectedBIN[15-MODULE_NUMBER] == 0){
+    ModulesConnectedBIN[15-MODULE_NUMBER] = 1;}
+
+  for (int i = 0; i < 8; i++) {ModulesConnectedDEC_1stByte = ModulesConnectedDEC_1stByte * 2 + ModulesConnectedBIN[i];}
+  for (int i = 8; i < 16; i++) {ModulesConnectedDEC_2ndByte = ModulesConnectedDEC_2ndByte * 2 + ModulesConnectedBIN[i];}
+
+/*Serial.print("\n");
+Serial.print(ModulesConnectedDEC_1stByte);
+Serial.println(ModulesConnectedDEC_2ndByte);
+Serial.print("\n");*/
+
+  EASYCAT.BufferIn.Byte[29] = ModulesConnectedDEC_1stByte;
+  EASYCAT.BufferIn.Byte[30] = ModulesConnectedDEC_2ndByte;
+
 }
   
-  
-  }
