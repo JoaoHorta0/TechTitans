@@ -1,0 +1,2931 @@
+[
+    {
+        "id": "53532912d6c7928c",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fd4e957b3f787fd4",
+        "type": "group",
+        "z": "53532912d6c7928c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "655c1537c197942c",
+            "bc6bc8c1aaf6db76"
+        ],
+        "x": 434,
+        "y": 773,
+        "w": 578,
+        "h": 414
+    },
+    {
+        "id": "5ab0648a7b2edc0a",
+        "type": "group",
+        "z": "53532912d6c7928c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9a92a7da1f236239",
+            "76e2bab37ce34e11"
+        ],
+        "x": 414,
+        "y": 1213,
+        "w": 598,
+        "h": 734
+    },
+    {
+        "id": "bc6bc8c1aaf6db76",
+        "type": "group",
+        "z": "53532912d6c7928c",
+        "g": "fd4e957b3f787fd4",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d6df97e5be419a84",
+            "b8703c08331c0b2d",
+            "4457f1e0d6b0c19d",
+            "f8b0b72143e238df",
+            "8aad0a43e2bb29af",
+            "dfc56d6325fdca90",
+            "722a76432b83da67",
+            "415cc3d01cff599e",
+            "01b885f4f02d2b0a",
+            "2baf06db07706d14",
+            "73640f477d8a32a6",
+            "cbf6bc4e2c9bc896",
+            "1808edfccaa06295",
+            "f65b30d5d650635c",
+            "57d7dc5d5c274022",
+            "a54fd604ef84f11e"
+        ],
+        "x": 634,
+        "y": 799,
+        "w": 352,
+        "h": 362
+    },
+    {
+        "id": "76e2bab37ce34e11",
+        "type": "group",
+        "z": "53532912d6c7928c",
+        "g": "5ab0648a7b2edc0a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bdba33b53835430e",
+            "05ad4df20cee4883",
+            "fadb67e047c422f7",
+            "46a03e87b8b8d412",
+            "63eb5313aac9e7e5",
+            "71b9c984905bba57",
+            "218327b04d3370d3",
+            "bc9c3f992700570b",
+            "947185be41e53c58",
+            "7711ac6e8715cf5e",
+            "06e276e255eddf9d",
+            "33de52536c32c426",
+            "10456c919b07d844",
+            "9b5e4be9847ce1c1",
+            "f7aa11b42761ecb2",
+            "7f2e084e714a32a8",
+            "3c84ac9eca497d1c",
+            "b3158886ebf3cff3",
+            "1fe68516bd9d18c4",
+            "6ab943fe260b061c",
+            "ed38b47a75ac62bf",
+            "84265dfd4da5b237",
+            "9d2fe0b1394eccd5",
+            "ab1ace72939618d2",
+            "169dcf3b1de83b03",
+            "b31e201f0424cd77",
+            "47fa8db4c8e06835",
+            "068a3b86a30e1dd7",
+            "9b46c8f95def8741",
+            "de03fb9d49bd00ea",
+            "e5b32c0cc90b0d8e",
+            "afe805142e501bb7"
+        ],
+        "x": 614,
+        "y": 1239,
+        "w": 372,
+        "h": 682
+    },
+    {
+        "id": "679f9ceb6d07d689",
+        "type": "serial-port",
+        "serialport": "COM3",
+        "serialbaud": "57600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "57352d1346508f89",
+        "type": "serial-port",
+        "serialport": "COM3",
+        "serialbaud": "9600",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "5395e1613ab24853",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c7c8b78efa7d7914",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "bab13f034af789a5",
+        "type": "ui_group",
+        "name": "ui",
+        "tab": "5395e1613ab24853",
+        "order": 1,
+        "disp": true,
+        "width": 26,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5009f67602e5d531",
+        "type": "ui_tab",
+        "name": "Sensor Data",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "7a15a957b9348591",
+        "type": "ui_group",
+        "name": "Sensor1",
+        "tab": "5009f67602e5d531",
+        "order": 1,
+        "disp": true,
+        "width": 21,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "69a2f39bf77f4f4d",
+        "type": "ui_group",
+        "name": "Sensor2",
+        "tab": "5009f67602e5d531",
+        "order": 2,
+        "disp": true,
+        "width": 21,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9066d002e0f15f5d",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 1,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "8f743702a32bbeed",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "fdec44fd718312aa",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 6,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "65201f99b3f04811",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 8,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "4ac3668e040fe8ad",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 9,
+        "width": 10,
+        "height": 1
+    },
+    {
+        "id": "cb922a31a18352b0",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 10,
+        "width": 4,
+        "height": 1
+    },
+    {
+        "id": "3a5a0c49713f86e1",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 11,
+        "width": 2,
+        "height": 1
+    },
+    {
+        "id": "de211ba6abb7518f",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "f98b0dcb59a34fb0",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 15,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "54c2285fe75db9dc",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 18,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "d7629ddf0fe94255",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 20,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "a4996c948e0036ba",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 21,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b83d5abaad8fdc1f",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 22,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "70ce7bd79ddfe7cb",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 23,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b262882f50dc0326",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 24,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "b440b03360306c60",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 25,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "0c6d49b23522be1a",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "bab13f034af789a5",
+        "order": 26,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e406074d75ef5994",
+        "type": "ui_tab",
+        "name": "delta pickyy",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "63334eac9f178ab8",
+        "type": "ui_group",
+        "name": "slider",
+        "tab": "e406074d75ef5994",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5beba00b263283d2",
+        "type": "ui_group",
+        "name": "buttons",
+        "tab": "e406074d75ef5994",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "de2ec8d25e26d8b1",
+        "type": "ui_group",
+        "name": "slider2",
+        "tab": "e406074d75ef5994",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d3b3b49d4240fe25",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "63334eac9f178ab8",
+        "order": 3,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "f90cdf14e4beccbd",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "63334eac9f178ab8",
+        "order": 4,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "9d8539d72a034918",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "63334eac9f178ab8",
+        "order": 5,
+        "width": 5,
+        "height": 1
+    },
+    {
+        "id": "be8919b4056d5a83",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "7a15a957b9348591",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "5d601d0479afdf67",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "69a2f39bf77f4f4d",
+        "order": 1,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "81018fc8aa9679b5",
+        "type": "ui_spacer",
+        "z": "53532912d6c7928c",
+        "name": "spacer",
+        "group": "69a2f39bf77f4f4d",
+        "order": 4,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "3ec23871bd66e27e",
+        "type": "ui_tab",
+        "name": "Qubes",
+        "icon": "dashboard",
+        "order": 4,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c776a349fc48f586",
+        "type": "ui_group",
+        "name": "Qubes Status",
+        "tab": "3ec23871bd66e27e",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a77b72d5f3f4aa98",
+        "type": "ui_tab",
+        "name": "Modules",
+        "icon": "dashboard",
+        "order": 5,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8a13bc98ec7f76c1",
+        "type": "ui_group",
+        "name": "Module Status",
+        "tab": "a77b72d5f3f4aa98",
+        "order": 1,
+        "disp": true,
+        "width": 20,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "d0b2729780adcb46",
+        "type": "remote-config",
+        "name": "Tech Titans HMI",
+        "host": "localhost",
+        "protocol": "http",
+        "port": "1880",
+        "baseurl": "/ui",
+        "instancehash": "q1z3o2mqjuilrxsizobkoy7h03cooys7wwikfyoll57tc9bpy9ld6s4ugjimdscv",
+        "server": "nodered02.remote-red.com",
+        "region": "de"
+    },
+    {
+        "id": "afba4c639718e15b",
+        "type": "serial in",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "serial": "57352d1346508f89",
+        "x": 90,
+        "y": 420,
+        "wires": [
+            [
+                "37d61789794789ad",
+                "6d411feaa212bed2"
+            ]
+        ]
+    },
+    {
+        "id": "fbd1246b29075e37",
+        "type": "function",
+        "z": "53532912d6c7928c",
+        "name": "Sensors",
+        "func": "var inputString = [];\nvar values = msg.payload.trim().split(\",\");\nfor (var i in values){\n\n    inputString.push({payload:values[i]})\n} \nreturn inputString;\n",
+        "outputs": 7,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 480,
+        "y": 360,
+        "wires": [
+            [
+                "557cf8dda72800dd"
+            ],
+            [
+                "659cc4e4221208ce",
+                "10ee74f03105f4b5"
+            ],
+            [
+                "a5187d5e71249b40",
+                "6f47f7c2ee481877"
+            ],
+            [
+                "566a1b881536df70",
+                "79bdd61f905bff89"
+            ],
+            [
+                "6dae7ad3fbd1cd33"
+            ],
+            [
+                "dd06e6529a94b82f"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "557cf8dda72800dd",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "group": "bab13f034af789a5",
+        "order": 3,
+        "width": 4,
+        "height": 1,
+        "name": "",
+        "label": "text",
+        "format": "{{value}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "659cc4e4221208ce",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "group": "bab13f034af789a5",
+        "order": 14,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "Byte6 Value: ",
+        "format": "{{value}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "a5187d5e71249b40",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "group": "bab13f034af789a5",
+        "order": 5,
+        "width": 5,
+        "height": 2,
+        "name": "",
+        "label": "Increasing: ",
+        "format": "{{value}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "566a1b881536df70",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "group": "bab13f034af789a5",
+        "order": 7,
+        "width": 5,
+        "height": 2,
+        "name": "",
+        "label": "Decreasing: ",
+        "format": "{{value}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "6f47f7c2ee481877",
+        "type": "ui_chart",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "group": "bab13f034af789a5",
+        "order": 16,
+        "width": 9,
+        "height": 5,
+        "label": "Increasing",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "255",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "79bdd61f905bff89",
+        "type": "ui_chart",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "group": "bab13f034af789a5",
+        "order": 17,
+        "width": 9,
+        "height": 5,
+        "label": "Decreasing",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "255",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 710,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dd06e6529a94b82f",
+        "type": "ui_chart",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "group": "69a2f39bf77f4f4d",
+        "order": 2,
+        "width": 18,
+        "height": 4,
+        "label": "Sensor2",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "255",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 700,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6dae7ad3fbd1cd33",
+        "type": "ui_chart",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "group": "7a15a957b9348591",
+        "order": 2,
+        "width": 18,
+        "height": 4,
+        "label": "Sensor1",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "255",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 700,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ffdce83287e248b",
+        "type": "ui_switch",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "label": "Sensor 1",
+        "tooltip": "",
+        "group": "7a15a957b9348591",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "5",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "6",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 900,
+        "y": 480,
+        "wires": [
+            [
+                "958c3e06101da7d6",
+                "d97557cdaba55091"
+            ]
+        ]
+    },
+    {
+        "id": "37b14423c27a8376",
+        "type": "serial out",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "serial": "",
+        "x": 1330,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "4430981c70a6a4bd",
+        "type": "ui_switch",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "label": "Sensor 2",
+        "tooltip": "",
+        "group": "69a2f39bf77f4f4d",
+        "order": 3,
+        "width": 3,
+        "height": 2,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "payload",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "3",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "4",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 900,
+        "y": 540,
+        "wires": [
+            [
+                "7ad1c55af1e9b250",
+                "d97557cdaba55091"
+            ]
+        ]
+    },
+    {
+        "id": "dcf3e2dfbe7cac67",
+        "type": "ui_switch",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "label": "Write to Byte6",
+        "tooltip": "",
+        "group": "bab13f034af789a5",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "str",
+        "style": "",
+        "onvalue": "1",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "2",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 920,
+        "y": 400,
+        "wires": [
+            [
+                "37b14423c27a8376"
+            ]
+        ]
+    },
+    {
+        "id": "10ee74f03105f4b5",
+        "type": "ui_chart",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "group": "bab13f034af789a5",
+        "order": 19,
+        "width": 6,
+        "height": 4,
+        "label": "Byte6",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "255",
+        "removeOlder": "1",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 690,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b978149309a1d33e",
+        "type": "ui_text_input",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "label": "",
+        "tooltip": "",
+        "group": "bab13f034af789a5",
+        "order": 2,
+        "width": 2,
+        "height": 1,
+        "passthru": true,
+        "mode": "number",
+        "delay": "0",
+        "topic": "topic",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "str",
+        "x": 930,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d411feaa212bed2",
+        "type": "function",
+        "z": "53532912d6c7928c",
+        "name": "Separate Data",
+        "func": "var inputString = [];\nvar values = msg.payload.trim().split(\"/\");\nfor (var i in values){\n\n    inputString.push({payload:values[i]})\n} \nreturn inputString;\n",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 420,
+        "wires": [
+            [
+                "fbd1246b29075e37"
+            ],
+            [
+                "655c1537c197942c",
+                "f9a8e777dd1ab0e7"
+            ],
+            [
+                "9a92a7da1f236239"
+            ]
+        ]
+    },
+    {
+        "id": "655c1537c197942c",
+        "type": "function",
+        "z": "53532912d6c7928c",
+        "g": "fd4e957b3f787fd4",
+        "name": "Qubes",
+        "func": "var inputString = [];\nvar values = msg.payload.trim().split(\",\");\nfor (var i in values){\n\n    inputString.push({payload:values[i]})\n} \nreturn inputString;\n",
+        "outputs": 8,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 980,
+        "wires": [
+            [
+                "d6df97e5be419a84"
+            ],
+            [
+                "4457f1e0d6b0c19d"
+            ],
+            [
+                "8aad0a43e2bb29af"
+            ],
+            [
+                "722a76432b83da67"
+            ],
+            [
+                "01b885f4f02d2b0a"
+            ],
+            [
+                "73640f477d8a32a6"
+            ],
+            [
+                "1808edfccaa06295"
+            ],
+            [
+                "57d7dc5d5c274022"
+            ]
+        ]
+    },
+    {
+        "id": "e65f7947bf845509",
+        "type": "join",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "mode": "custom",
+        "build": "string",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": ",",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "1",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1070,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d03c9cafb54263b6",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "group": "7a15a957b9348591",
+        "order": 4,
+        "width": 3,
+        "height": 1,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1390,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d97557cdaba55091",
+        "type": "function",
+        "z": "53532912d6c7928c",
+        "name": "function 4",
+        "func": "//var inputString = [];\nvar Sensor1 = global.get('Sensor1');\nvar Sensor2 = global.get('Sensor2');\nvar inputString = [Sensor1 , Sensor2];\n\nfor (var i = 0; i < 5; i++){\n\n    inputString.push({ payload: inputString[i]})\n} \nmsg.payload = inputString;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 520,
+        "wires": [
+            [
+                "d03c9cafb54263b6",
+                "37b14423c27a8376",
+                "505b5373543bbe1e"
+            ]
+        ]
+    },
+    {
+        "id": "958c3e06101da7d6",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Sensor1",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1150,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ad1c55af1e9b250",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "Sensor2",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg",
+                "dc": true
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "505b5373543bbe1e",
+        "type": "debug",
+        "z": "53532912d6c7928c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1380,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "37d61789794789ad",
+        "type": "debug",
+        "z": "53532912d6c7928c",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d6df97e5be419a84",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 840,
+        "wires": [
+            [
+                "a54fd604ef84f11e"
+            ]
+        ]
+    },
+    {
+        "id": "b8703c08331c0b2d",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube0 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "4457f1e0d6b0c19d",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 880,
+        "wires": [
+            [
+                "f65b30d5d650635c"
+            ]
+        ]
+    },
+    {
+        "id": "f8b0b72143e238df",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube1 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "8aad0a43e2bb29af",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 920,
+        "wires": [
+            [
+                "cbf6bc4e2c9bc896"
+            ]
+        ]
+    },
+    {
+        "id": "dfc56d6325fdca90",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube2 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "722a76432b83da67",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 960,
+        "wires": [
+            [
+                "2baf06db07706d14"
+            ]
+        ]
+    },
+    {
+        "id": "415cc3d01cff599e",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube3 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "01b885f4f02d2b0a",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1000,
+        "wires": [
+            [
+                "415cc3d01cff599e"
+            ]
+        ]
+    },
+    {
+        "id": "2baf06db07706d14",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube4 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "73640f477d8a32a6",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1040,
+        "wires": [
+            [
+                "dfc56d6325fdca90"
+            ]
+        ]
+    },
+    {
+        "id": "cbf6bc4e2c9bc896",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube5 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "1808edfccaa06295",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1080,
+        "wires": [
+            [
+                "f8b0b72143e238df"
+            ]
+        ]
+    },
+    {
+        "id": "f65b30d5d650635c",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube6 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "57d7dc5d5c274022",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 740,
+        "y": 1120,
+        "wires": [
+            [
+                "b8703c08331c0b2d"
+            ]
+        ]
+    },
+    {
+        "id": "a54fd604ef84f11e",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "bc6bc8c1aaf6db76",
+        "group": "c776a349fc48f586",
+        "order": 26,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Qube7 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 900,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f9a8e777dd1ab0e7",
+        "type": "debug",
+        "z": "53532912d6c7928c",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "9a92a7da1f236239",
+        "type": "function",
+        "z": "53532912d6c7928c",
+        "g": "5ab0648a7b2edc0a",
+        "name": "Modules",
+        "func": "var inputString = [];\nvar values = msg.payload.trim().split(\",\");\nfor (var i in values){\n\n    inputString.push({payload:values[i]})\n} \nreturn inputString;\n",
+        "outputs": 16,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 1580,
+        "wires": [
+            [
+                "05ad4df20cee4883"
+            ],
+            [
+                "46a03e87b8b8d412"
+            ],
+            [
+                "71b9c984905bba57"
+            ],
+            [
+                "bc9c3f992700570b"
+            ],
+            [
+                "7711ac6e8715cf5e"
+            ],
+            [
+                "33de52536c32c426"
+            ],
+            [
+                "9b5e4be9847ce1c1"
+            ],
+            [
+                "7f2e084e714a32a8"
+            ],
+            [
+                "b3158886ebf3cff3"
+            ],
+            [
+                "6ab943fe260b061c"
+            ],
+            [
+                "84265dfd4da5b237"
+            ],
+            [
+                "ab1ace72939618d2"
+            ],
+            [
+                "b31e201f0424cd77"
+            ],
+            [
+                "068a3b86a30e1dd7"
+            ],
+            [
+                "de03fb9d49bd00ea"
+            ],
+            [
+                "afe805142e501bb7"
+            ]
+        ]
+    },
+    {
+        "id": "bdba33b53835430e",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 10,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module9 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "05ad4df20cee4883",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1280,
+        "wires": [
+            [
+                "10456c919b07d844"
+            ]
+        ]
+    },
+    {
+        "id": "fadb67e047c422f7",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 11,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module10 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "46a03e87b8b8d412",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1320,
+        "wires": [
+            [
+                "06e276e255eddf9d"
+            ]
+        ]
+    },
+    {
+        "id": "63eb5313aac9e7e5",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 12,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module11 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "71b9c984905bba57",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1360,
+        "wires": [
+            [
+                "947185be41e53c58"
+            ]
+        ]
+    },
+    {
+        "id": "218327b04d3370d3",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 13,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module12 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "bc9c3f992700570b",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1400,
+        "wires": [
+            [
+                "218327b04d3370d3"
+            ]
+        ]
+    },
+    {
+        "id": "947185be41e53c58",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 14,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module13 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "7711ac6e8715cf5e",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1440,
+        "wires": [
+            [
+                "63eb5313aac9e7e5"
+            ]
+        ]
+    },
+    {
+        "id": "06e276e255eddf9d",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 15,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module14 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "33de52536c32c426",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1480,
+        "wires": [
+            [
+                "fadb67e047c422f7"
+            ]
+        ]
+    },
+    {
+        "id": "10456c919b07d844",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 16,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module15 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 890,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "9b5e4be9847ce1c1",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1520,
+        "wires": [
+            [
+                "bdba33b53835430e"
+            ]
+        ]
+    },
+    {
+        "id": "f7aa11b42761ecb2",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 9,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module8 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "7f2e084e714a32a8",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1560,
+        "wires": [
+            [
+                "f7aa11b42761ecb2"
+            ]
+        ]
+    },
+    {
+        "id": "3c84ac9eca497d1c",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 8,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module7 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "b3158886ebf3cff3",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1600,
+        "wires": [
+            [
+                "3c84ac9eca497d1c"
+            ]
+        ]
+    },
+    {
+        "id": "1fe68516bd9d18c4",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 7,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module6 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "6ab943fe260b061c",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1640,
+        "wires": [
+            [
+                "1fe68516bd9d18c4"
+            ]
+        ]
+    },
+    {
+        "id": "ed38b47a75ac62bf",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 6,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module5 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "84265dfd4da5b237",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1680,
+        "wires": [
+            [
+                "ed38b47a75ac62bf"
+            ]
+        ]
+    },
+    {
+        "id": "9d2fe0b1394eccd5",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 5,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module4 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "ab1ace72939618d2",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1720,
+        "wires": [
+            [
+                "9d2fe0b1394eccd5"
+            ]
+        ]
+    },
+    {
+        "id": "169dcf3b1de83b03",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 4,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module3 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "b31e201f0424cd77",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1760,
+        "wires": [
+            [
+                "169dcf3b1de83b03"
+            ]
+        ]
+    },
+    {
+        "id": "47fa8db4c8e06835",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 3,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module2 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "068a3b86a30e1dd7",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1800,
+        "wires": [
+            [
+                "47fa8db4c8e06835"
+            ]
+        ]
+    },
+    {
+        "id": "9b46c8f95def8741",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 2,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module1 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "de03fb9d49bd00ea",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1840,
+        "wires": [
+            [
+                "9b46c8f95def8741"
+            ]
+        ]
+    },
+    {
+        "id": "e5b32c0cc90b0d8e",
+        "type": "ui_text",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "group": "8a13bc98ec7f76c1",
+        "order": 1,
+        "width": 5,
+        "height": 1,
+        "name": "",
+        "label": "Module0 :",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 880,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "afe805142e501bb7",
+        "type": "change",
+        "z": "53532912d6c7928c",
+        "g": "76e2bab37ce34e11",
+        "name": "",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "1",
+                "fromt": "str",
+                "to": "Connected",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "0",
+                "fromt": "str",
+                "to": "Not Connected",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 1880,
+        "wires": [
+            [
+                "e5b32c0cc90b0d8e"
+            ]
+        ]
+    },
+    {
+        "id": "86a6f53c244a6a44",
+        "type": "remote-access",
+        "z": "53532912d6c7928c",
+        "confignode": "d0b2729780adcb46",
+        "name": "",
+        "verbose": 0,
+        "x": 280,
+        "y": 1900,
+        "wires": [
+            [],
+            []
+        ]
+    }
+]
