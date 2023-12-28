@@ -382,7 +382,7 @@ void HMItoTWINCAT()
 
 void Disconnect(){
   
-  if(IncomingData == 'd'){disconnectQM = true;}
+  if(IncomingData == 'D'){disconnectQM = true;}
         else if((IncomingData == 'Q') && (disconnectQM == true)){disconnectQube = true;}
         else if((IncomingData == 'M') && (disconnectQM == true)){disconnectModule = true;}
         
